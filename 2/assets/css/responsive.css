@@ -1,0 +1,313 @@
+@media (max-width: 1205px) {
+    nav .slipNav {
+        display: flex;
+        justify-content: center;
+    }
+
+    .banner .bannerTitle {
+        display: flex;
+        justify-content: center;
+    }
+
+    .about .info {
+        display: none;
+    }
+
+    .specie .card {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .media .card {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .directory .brand{
+        margin: 0;
+        margin-left: 20px;
+    }
+}
+
+@media (max-width: 1060px) {
+    .award .info {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .award p {
+        width: 500px;
+        text-align: center;
+    }
+
+    .detail .product {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .directory .tabs li {
+        width: 230px;
+        height: 56px;
+    }
+    #tab-1 .product a div{
+        width: 200px;
+    }
+    #tab-2 .product a div{
+        width: 200px;
+    }
+    #tab-3 .product a div{
+        width: 200px;
+    }
+    #tab-4 .product a div{
+        width: 200px;
+    }
+    #tab-5 .product a div{
+        width: 200px;
+    }
+    #tab-6 .product a div{
+        width: 200px;
+    }
+}
+
+@media (max-width: 900px){
+    .directory .tabs li {
+        width: 200px;
+        height: 56px;
+    }
+    #tab-1 .product a div{
+        width: 190px;
+    }
+    #tab-2 .product a div{
+        width: 180px;
+    }
+    #tab-3 .product a div{
+        width: 180px;
+    }
+    #tab-4 .product a div{
+        width: 180px;
+    }
+    #tab-5 .product a div{
+        width: 180px;
+    }
+    #tab-6 .product a div{
+        width: 180px;
+    }
+}
+
+@media (max-width: 800px) {
+    .banner .bannerTitle h1 {
+        text-align: center;
+        width: 500px;
+    }
+
+    .banner .bannerTitle h3 {
+        text-align: center;
+        width: 500px;
+    }
+
+    .banner .bannerTitle button {
+        font-size: 20px;
+        margin-top: 50px;
+    }
+
+    .about .aboutTitle h3 {
+        text-align: center;
+    }
+
+    .about .aboutTitle h2 {
+        text-align: center;
+    }
+
+    .about .aboutTitle p {
+        text-align: center;
+    }
+
+    .about .specie {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .brand .product{
+        display: grid;
+        gap: 0.5rem;
+        grid-template-columns: repeat(2, minmax(0, 1fr))
+    }
+    .brand .product div{
+        margin: 0;
+    }
+    .brand .select{
+        display: flex;
+
+    }
+    .brand .select #dropdownHoverButton{
+        width: 200px;
+    }
+}
+
+@media (max-width: 700px) {
+    .about .aboutTitle h3 {
+        font-size: 17px;
+    }
+
+    .about .aboutTitle h2 {
+        font-size: 17px;
+    }
+
+    .about .aboutTitle p {
+        width: 500px;
+        text-align: center;
+    }
+
+    .location .contact {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+}
+@media (max-width: 625px){
+    .brand .product{
+        display: grid;
+        gap: 0.25rem;
+        grid-template-columns: repeat(1, minmax(0, 1fr))
+    }
+    .directory .tabs li {
+        width: 150px;
+        height: 56px;
+    }
+    #tab-1 .product a div{
+        width: 260px;
+    }
+    #tab-2 .product a div{
+        width: 260px;
+    }
+    #tab-3 .product a div{
+        width: 260px;
+    }
+    #tab-4 .product a div{
+        width: 260px;
+    }
+    #tab-5 .product a div{
+        width: 260px;
+    }
+    #tab-6 .product a div{
+        width: 260px;
+    }
+    .brand .select{
+        display: flex;
+        flex-direction: column;
+    }
+    .brand .select #dropdownHoverButton{
+        width: 260px;
+    }
+    .brand .product div{
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 400px) {
+    .about .aboutTitle h3 {
+        font-size: 10px;
+    }
+
+    .about .aboutTitle h2 {
+        font-size: 13px;
+    }
+
+    .about .aboutTitle p {
+        width: 300px;
+        text-align: center;
+    }
+
+    .banner .bannerTitle h1 {
+        text-align: center;
+        width: 350px;
+    }
+
+    .banner .bannerTitle h3 {
+        text-align: center;
+        width: 350px;
+    }
+
+    .banner .bannerTitle button {
+        margin-left: 50px;
+        margin-top: 50px;
+    }
+
+    .about .aboutTitle button {
+        margin-left: 50px;
+        margin-top: 50px;
+    }
+
+    .award p {
+        width: 300px;
+        text-align: center;
+    }
+
+    .detail .product .image {
+        width: 350px;
+    }
+
+    .detail .product h2 {
+        text-align: center;
+    }
+
+    .detail .product h6 {
+        text-align: center;
+    }
+
+    .detail .product p {
+        text-align: center;
+        width: 350px;
+    }
+
+    .detail .product h1 {
+        text-align: center;
+    }
+
+    .detail .product h5 {
+        text-align: center;
+    }
+    
+
+    .directory .tabs li {
+        width: 130px;
+        height: 56px;
+    }
+    #tab-1 .product a div{
+        width: 200px;
+    }
+    #tab-2 .product a div{
+        width: 200px;
+    }
+    #tab-3 .product a div{
+        width: 200px;
+    }
+    #tab-4 .product a div{
+        width: 200px;
+    }
+    #tab-5 .product a div{
+        width: 200px;
+    }
+    #tab-6 .product a div{
+        width: 200px;
+    }
+    .brand .select{
+        display: flex;
+        flex-direction: column;
+    }
+    .brand .select #dropdownHoverButton{
+        width: 200px;
+    }
+    .brand .product div{
+        margin-top: 20px;
+    }
+}

@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat+Subrayada:wght@400;700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.slipNav a {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #303030;
+}
+
+.slipNav .hr {
+    width: 1px;
+    height: 35px;
+    background-color: #D9D9D9;
+}
+
+.slipNav .social i {
+    font-size: 14px;
+}
+
+.slipNav .social i:hover {
+    color: #C0944A;
+    transition-duration: 0.5s;
+}
+
+.slipNav .lang a {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #303030;
+}
+
+.slipNav .lang a:hover {
+    color: #C0944A;
+    transition-duration: 0.5s;
+}
+
+nav ul li a {
+    font-family: "Montserrat", sans-serif;
+    color: #1E1E1E;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+nav form input {
+    border-radius: 10px !important;
+    border-radius: 70px;
+    border: none;
+    background-color: rgba(255, 255, 255, 1);
+    width: 210px;
+    height: 56px;
+    filter: drop-shadow(3px 3px 4px #bebdbd);
+    outline: none !important;
+    color: #B4B4B4;
+}
+
+.banner h1 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    color: white;
+    width: 753px;
+    line-height: 39px;
+    letter-spacing: 2px;
+}
+
+.banner h3 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: white;
+    width: 650px;
+    line-height: 30px;
+    letter-spacing: 2px;
+    margin-top: 30px;
+
+}
+
+.banner button {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    width: 230px;
+    height: 56px;
+    color: white;
+    background-color: #C0944A;
+    border-radius: 10px;
+    margin-top: 140px;
+}
+
+.banner button:hover {
+    background-color: #edaf44;
+    transition-duration: 0.5s;
+}
+
+.about .aboutTitle h3 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 2px;
+    color: #C0944A;
+}
+
+.about .aboutTitle h2 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 24px;
+    letter-spacing: 2px;
+    color: #363333;
+    margin-top: 20px;
+}
+
+.about .aboutTitle p {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 32px;
+    letter-spacing: 2px;
+    color: #363333;
+    margin-top: 20px;
+    width: 700px;
+}
+
+.about .aboutTitle button {
+    font-family: "Montserrat", sans-serif;
+    width: 210px;
+    height: 60px;
+    background-color: #C0944A;
+    border-radius: 10px;
+    font-weight: 700;
+    color: white;
+    font-size: 20px;
+    margin-top: 50px;
+}
+
+.specie h1 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    color: #C0944A;
+}
+
+.specie h3 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+.specie h3 span {
+    font-weight: 600;
+}
+
+.specie img {
+    border-radius: 15px;
+}
+
+.cardSlide .card h2 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.cardSlide h1 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+    color: #C0944A;
+}
+
+.slideButton button {
+    border: 1px solid #D88926;
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+}
+
+.slideButton button i {
+    color: #D88926;
+}
+
+.slideButton button:hover {
+    background-color: #C0944A;
+    transition: .5s;
+}
+
+.slideButton button:hover i {
+    color: white;
+}
+
+.media h1 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+    color: #C0944A;
+}
+
+.media h6 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #848484;
+    margin-top: 20px;
+}
+
+.media p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #333333;
+    margin-top: 10px;
+    line-height: 30px;
+    width: 360px;
+}
+
+footer ul li {
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+}
+
+footer h3 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: white;
+}
+
+footer span {
+    color: white;
+}
+
+footer .social i {
+    color: white;
+}
+
+footer .social i:hover {
+    color: #F4E8B5;
+    transition: .5s;
+}
+
+

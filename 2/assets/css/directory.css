@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat+Subrayada:wght@400;700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.banner a{
+    font-family: "Montserrat", sans-serif;
+    color: #F4E8B5;
+    font-weight: 400;
+    font-size: 14px;
+}
+.banner a span{
+    color: white;
+}
+.banner h1{
+    font-family: "Montserrat", sans-serif;
+    color: #303030;
+    font-weight: 600;
+    font-size: 32px;
+    margin-top: 20px;
+}
+
+ul.tabs {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+ul.tabs li {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    width: 270px;
+    height: 56px;
+    border-radius: 20px;
+    background-color: #FDF7ED;
+    color: #717175;
+    display: inline-block;
+    padding-top: 17px;
+    text-align: center;
+    cursor: pointer;
+}
+
+ul.tabs li.current {
+    background: #C0944A;
+    color: white;
+}
+
+.tab-content {
+    display: none;
+}
+
+.tab-content.current {
+    display: inherit;
+}
+
+#dropdownHoverButton {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    width: 262px;
+    height: 56px;
+    border: 1px solid black;
+    border-radius: 20px;
+    border-color: #EFEFEF;
+    color: #303030;
+}
+#dropdownHoverButton span{
+    color: #979797;
+    margin-left: 10px;
+    font-size: 12px;
+    font-weight: 300;
+}
+.directory h1{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: #363333;
+    text-align: center;
+    padding-top: 10px;
+}
+.directory img{
+    margin-top: 30px;
+}
